@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>打开新窗口</title>
+<style>
+	body{
+		margin: 0 auto;
+		font-family: "仿宋";
+		font-size: 20px;
+	}
+	a{
+		text-decoration: none;
+	}
+</style>
+<script>
+	function enroll(){
+			 a =	window.open("https://passport.baidu.com/v2/?reg&tt=1667221667880&overseas=undefined&gid=ECB9E44-37E5-4026-8BC3-C3B7F82EB4B6&tpl=mn&u=https%3A%2F%2Fwww.baidu.com%2F");
+			 a.focus();
+			}
+   function register(){
+			b =window.open("https://www.baidu.com/","_blank","scrollbars=yes,width=400,height=300");
+			b.focus();
+			}
+</script>
+</head>
+<body>
+<a  href="" onclick="enroll()">注册</a>
+|
+<a  href="" onclick="register()">登录</a><br/>
+	<p>这是主页面</p>
+</body>
+</html>
